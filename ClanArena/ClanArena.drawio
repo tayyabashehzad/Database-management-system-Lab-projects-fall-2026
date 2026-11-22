@@ -1,0 +1,210 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="fZxRB7EsQIBv67uXgKv-">
+    <mxGraphModel dx="1578" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;" value="ClanArena ERD" vertex="1">
+          <mxGeometry height="30" width="300" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Game" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#ffffff;" value="Game" vertex="1">
+          <mxGeometry height="108" width="210" x="40" y="109" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Game_0" parent="t_Game" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=1;" value="PK  game_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Game_1" parent="t_Game" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      game_name  VARCHAR(50)" vertex="1">
+          <mxGeometry height="26" width="210" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Game_2" parent="t_Game" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      genre  VARCHAR(30)" vertex="1">
+          <mxGeometry height="26" width="210" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Clan" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=#ffffff;" value="Clan" vertex="1">
+          <mxGeometry height="108" width="210" x="810" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Clan_0" parent="t_Clan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=1;" value="PK  clan_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Clan_1" parent="t_Clan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="UK  clan_name  VARCHAR(50)" vertex="1">
+          <mxGeometry height="26" width="210" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Clan_2" parent="t_Clan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      total_points  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=#ffffff;" value="Player" vertex="1">
+          <mxGeometry height="186" width="210" x="1110" y="341" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_0" parent="t_Player" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=1;" value="PK  player_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_1" parent="t_Player" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      player_name  VARCHAR(50)" vertex="1">
+          <mxGeometry height="26" width="210" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_2" parent="t_Player" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="UK  email  VARCHAR(100)" vertex="1">
+          <mxGeometry height="26" width="210" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_3" parent="t_Player" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      age  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_4" parent="t_Player" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      join_date  DATE" vertex="1">
+          <mxGeometry height="26" width="210" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_5" parent="t_Player" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  clan_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Tournament" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" value="Tournament" vertex="1">
+          <mxGeometry height="186" width="210" x="350" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Tournament_0" parent="t_Tournament" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=1;" value="PK  tournament_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Tournament_1" parent="t_Tournament" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      title  VARCHAR(60)" vertex="1">
+          <mxGeometry height="26" width="210" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Tournament_2" parent="t_Tournament" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  game_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Tournament_3" parent="t_Tournament" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      start_date  DATE" vertex="1">
+          <mxGeometry height="26" width="210" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Tournament_4" parent="t_Tournament" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      entry_fee  DECIMAL" vertex="1">
+          <mxGeometry height="26" width="210" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Tournament_5" parent="t_Tournament" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      status  VARCHAR(15)" vertex="1">
+          <mxGeometry height="26" width="210" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Registration" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" value="Registration" vertex="1">
+          <mxGeometry height="108" width="210" x="350" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Registration_0" parent="t_Registration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=1;" value="PK  reg_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Registration_1" parent="t_Registration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  tournament_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Registration_2" parent="t_Registration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  clan_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Match" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" value="Match" vertex="1">
+          <mxGeometry height="186" width="210" x="810" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Match_0" parent="t_Match" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=1;" value="PK  match_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Match_1" parent="t_Match" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  tournament_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Match_2" parent="t_Match" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  clan1_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Match_3" parent="t_Match" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  clan2_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Match_4" parent="t_Match" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  winner_clan_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Match_5" parent="t_Match" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      match_date  DATE" vertex="1">
+          <mxGeometry height="26" width="210" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_Score" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=#ffffff;" value="Player_Score" vertex="1">
+          <mxGeometry height="160" width="210" x="1110" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_Score_0" parent="t_Player_Score" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=1;" value="PK  score_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_Score_1" parent="t_Player_Score" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  match_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_Score_2" parent="t_Player_Score" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  player_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_Score_3" parent="t_Player_Score" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      kills  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Player_Score_4" parent="t_Player_Score" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      score  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Payment" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;swimlaneFillColor=#ffffff;" value="Payment" vertex="1">
+          <mxGeometry height="160" width="210" x="40" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Payment_0" parent="t_Payment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=1;" value="PK  payment_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Payment_1" parent="t_Payment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  reg_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Payment_2" parent="t_Payment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      amount  DECIMAL" vertex="1">
+          <mxGeometry height="26" width="210" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Payment_3" parent="t_Payment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      method  VARCHAR(20)" vertex="1">
+          <mxGeometry height="26" width="210" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Payment_4" parent="t_Payment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      status  VARCHAR(15)" vertex="1">
+          <mxGeometry height="26" width="210" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Prize" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;swimlaneFillColor=#ffffff;" value="Prize" vertex="1">
+          <mxGeometry height="160" width="210" x="580" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Prize_0" parent="t_Prize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=1;" value="PK  prize_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Prize_1" parent="t_Prize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  tournament_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Prize_2" parent="t_Prize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;fontStyle=2;" value="FK  clan_id  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Prize_3" parent="t_Prize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      position  INT" vertex="1">
+          <mxGeometry height="26" width="210" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Prize_4" parent="t_Prize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;whiteSpace=nowrap;fontSize=12;" value="      amount  DECIMAL" vertex="1">
+          <mxGeometry height="26" width="210" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="t_Game" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;fontSize=11;labelBackgroundColor=#ffffff;" target="t_Tournament" value="used in">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="t_Tournament" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;fontSize=11;labelBackgroundColor=#ffffff;" target="t_Match" value="has">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="t_Tournament" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;fontSize=11;labelBackgroundColor=#ffffff;" target="t_Registration" value="gets">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="t_Clan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitX=0.0000;exitY=0.5000;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;fontSize=11;labelBackgroundColor=#ffffff;" target="t_Registration" value="makes">
+          <mxGeometry relative="1" x="-0.4" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="t_Registration" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitX=0.0000;exitY=0.5000;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;fontSize=11;labelBackgroundColor=#ffffff;" target="t_Payment" value="paid by">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="t_Tournament" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitX=1.0000;exitY=0.9032;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;fontSize=11;labelBackgroundColor=#ffffff;" target="t_Prize" value="gives">
+          <mxGeometry relative="1" x="0.5" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="t_Clan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;fontSize=11;labelBackgroundColor=#ffffff;" target="t_Prize" value="wins">
+          <mxGeometry relative="1" x="0.7" as="geometry">
+            <Array as="points">
+              <mxPoint x="915" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="t_Match" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;fontSize=11;labelBackgroundColor=#ffffff;" target="t_Player_Score" value="has">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="t_Player" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitX=0.5000;exitY=0.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;fontSize=11;labelBackgroundColor=#ffffff;" target="t_Player_Score" value="scores">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="t_Clan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;fontSize=11;labelBackgroundColor=#ffffff;" target="t_Player" value="has">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="t_Clan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERmany;endFill=0;exitX=0.5000;exitY=0.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;fontSize=11;labelBackgroundColor=#ffffff;" target="t_Match" value="plays (clan1, clan2, winner)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="PK = primary key, FK = foreign key, UK = unique. One bar = the 1 side, crow foot = the many side." vertex="1">
+          <mxGeometry height="24" width="700" x="40" y="850" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
